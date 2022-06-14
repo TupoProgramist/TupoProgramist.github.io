@@ -5,6 +5,9 @@ $(document).ready(function (){
     oxf.onclick = function(){
         var in_val = input.value.toLowerCase();
         window.open('https://www.oxfordlearnersdictionaries.com/definition/english/'+in_val,'_blank');}
+    oxf_col.onclick = function(){
+        var in_val = input.value.toLowerCase();
+        window.open('https://www.freecollocation.com/search?word='+in_val,'_blank');}
     thes.onclick = function(){
         var in_val = input.value.toLowerCase();
         window.open('https://www.thesaurus.com/browse/'+in_val,'_blank');}
@@ -20,4 +23,5 @@ $(document).ready(function (){
     deepl.onclick = function(){
         var in_val = input.value.toLowerCase();
         window.open('https://www.deepl.com/translator#en/ru/'+in_val,'_blank');}
+
 });
